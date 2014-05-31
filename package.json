@@ -5,5 +5,21 @@
     "express": "^4.4.0",
     "jade": "^1.3.1",
     "socket.io": "^1.0.2"
-  }
+  },
+  "description": "battlecitynet =============",
+  "main": "appChat.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://A11oW@github.com/A11oW/battlecitynet.git"
+  },
+  "author": "A11oW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A11oW/battlecitynet/issues"
+  },
+  "homepage": "https://github.com/A11oW/battlecitynet"
 }
