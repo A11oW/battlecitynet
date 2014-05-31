@@ -1,0 +1,28 @@
+<!-- /project_dir/index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/style.css">
+        <meta name="robots" content="noindex,nofollow"/>
+        <title>Демо простой час с помощью nodejs и socket.io</title>
+    </head>
+    <body>
+        <div class="demo">
+            <h1>Демо простой час с помощью nodejs и socket.io</h1>
+
+            <div class="chat">
+                <div class="messages" id="messages"></div>
+
+                <div class="panel">
+                    <span class="nick"></span>
+                    <input type="text" name="message_text" id="message_text">
+                    <button type="button" id="message_btn">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="http://localhost:8008/socket.io/socket.io.js"></script>
+        <script src="/static/app.js"></script>
+    </body>
+</html>
