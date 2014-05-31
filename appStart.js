@@ -1,4 +1,4 @@
-// /projects_dir/server/appChat.js
+// /projects_dir/server/appStart.js
 var PORT = 8008;
 
 var options = {
